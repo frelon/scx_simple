@@ -4,5 +4,6 @@ scx_simple.bpf.subskel.h
 scx_simple.bpf.l1o
 scx_simple.bpf.l2o
 scx_simple.bpf.l3o
+vmlinux.h
 *.o
 
