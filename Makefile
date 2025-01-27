@@ -1,6 +1,6 @@
 BPFTOOL     ?= /usr/sbin/bpftool
 LIBBPF      ?= /usr/lib64/libbpf.so.1
-CC_ARGS     ?= -g -O2 -Wall -Wno-compare-distinct-pointer-types
+CC_ARGS     ?= -g -O2 -Wall -Wno-compare-distinct-pointer-types -I /usr/include/scx
 BPF_CC_ARGS ?= -g -O2 -Wall -Wno-compare-distinct-pointer-types -D__TARGET_ARCH_x86_64 -mcpu=v3 -I ./
 CC           = clang
 
